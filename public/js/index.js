@@ -1,1 +1,3 @@
-console.log('crap gfhfh fhgfh');
+$.get('/broker',function(data){
+   console.log(data);
+});
