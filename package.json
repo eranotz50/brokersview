@@ -9,8 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/jquery": "^3.3.1",
-    "express": "^4.16.3",
-    "livereload": "^0.7.0"
+    "@types/jquery": "^3.3.1"
   }
 }
