@@ -28,17 +28,28 @@ ul{
 .dataGrid{
     box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(5,1fr);
+}
+
+.dataGrid:nth-child(odd){
+    background: red;   
 }
 
 .grid-header{
-    background : #485e74;
+    background : #485e74;    
     color: #fff;
     font-size: 18px;
     font-weight: bold;
 }
 
-.grid-item{
-    
+.broker{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
+
+.broker-mobile{   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
