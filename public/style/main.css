@@ -39,11 +39,17 @@ ul{
     color: #fff;
     font-size: 18px;
     font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .broker{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+
+.inline-header{
+    display: none;
 }
 
 .broker-mobile{   
