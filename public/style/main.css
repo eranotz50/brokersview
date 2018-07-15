@@ -1,5 +1,8 @@
 *{ 
     box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    border : 0px;
 }
 
 body{
@@ -9,10 +12,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-}
 
 .header{
     text-align: center;
@@ -25,37 +24,51 @@ ul{
     padding: 1em;
 }
 
+
+.grid-header {
+    background : #485e74;    
+    color: #fff;
+    font-size: 18px;
+}
+
+.grid-header > div{
+    display: inline-block;
+}
+
+.broker{   
+    background: red;
+}
+
+.broker > div{
+    display: inline-block; 
+}
+
+.col1 {
+    width : 25%;
+}
+
+.col2 {
+    width : 25%;
+}
+
+.col3 {
+    width : 50%;    
+    background: black;
+}
+
+
+
+
+.broker > .inline-header{
+    display: none;
+}
+
+
+/*
 .dataGrid{
     box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);
-    display: grid;
 }
 
 .dataGrid:nth-child(odd){
     background: red;   
-}
-
-.grid-header{
-    background : #485e74;    
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.broker{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-
-.inline-header{
-    display: none;
-}
-
-.broker-mobile{   
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-
-
+}*/
