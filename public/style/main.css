@@ -5,6 +5,12 @@
     border : 0px;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 body{
     background: #92bde7;
     color : #485e74;
@@ -21,7 +27,18 @@ body{
     max-width: 1170px;
     margin-left: auto;
     margin-right:auto;
-    padding: 1em;
+    padding: 1em;    
+}
+
+.dataGrid{
+    box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);    
+    text-align: center;
+}
+
+
+.broker:nth-child(odd){
+    background : #4a85c0;
+    color:  #283849;
 }
 
 
@@ -29,39 +46,71 @@ body{
     background : #485e74;    
     color: #fff;
     font-size: 18px;
+    display: inline-flex;        
+    width : 100%;
 }
 
 .grid-header > div{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;    
+    justify-content: center;          
+    border: 1px solid black;
 }
 
 .broker{   
-    background: red;
+    display: inline-flex;
+    width : 100%;   
 }
 
 .broker > div{
-    display: inline-block; 
+    display: inline-flex;
+    align-items: center;    
+    justify-content: center;          
+    border: 1px solid black;                        
 }
 
+
+
 .col1 {
-    width : 25%;
+    width : 15%;
+    background: red;
 }
 
 .col2 {
-    width : 25%;
+    width : 16%;
+    background:gray;
 }
 
 .col3 {
-    width : 50%;    
-    background: black;
+    width : 12%;   
+    background: blue;    
 }
 
+.col4 {
+    width : 12%;     
+    background: pink;  
+}
 
+.col5 {
+    width : 12%;     
+    background: yellow;      
+}
+
+.col6 {
+    width : 10%;       
+    background: purple;
+}
+
+.col7 {
+    width : 23%;       
+    background: plum;
+}
 
 
 .broker > .inline-header{
     display: none;
 }
+
 
 
 /*

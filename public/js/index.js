@@ -1,4 +1,14 @@
-$.get('/broker',function(data){
-   console.log(data);
+$(document).ready(function(){
+
+    var grid = $('.dataGrid');
+
+    var brokersViewCtrl = new brokersViewCntrl(grid);
+    brokersViewCtrl.populateView();
+
 });
+   
+
+   
+
+
 
