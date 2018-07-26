@@ -32,9 +32,8 @@ body{
 
 .dataGrid{
     box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);    
-    text-align: center;
+    text-align: center;   
 }
-
 
 .broker:nth-child(odd){
     background : #4a85c0;
@@ -46,7 +45,7 @@ body{
     background : #485e74;    
     color: #fff;
     font-size: 18px;
-    display: inline-flex;        
+    display: flex;            
     width : 100%;
 }
 
@@ -54,19 +53,20 @@ body{
     display: inline-flex;
     align-items: center;    
     justify-content: center;          
-    border: 1px solid black;
+    border: 1px solid black;    
 }
 
 .broker{   
-    display: inline-flex;
-    width : 100%;   
+    display: flex;
+    width : 100%;       
 }
 
 .broker > div{
+    flex-wrap : wrap;
     display: inline-flex;
     align-items: center;    
     justify-content: center;          
-    border: 1px solid black;                        
+    border: 1px solid black;                            
 }
 
 
