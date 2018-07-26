@@ -69,8 +69,6 @@ body{
     border: 1px solid black;                            
 }
 
-
-
 .col1 {
     width : 15%;
     background: red;
@@ -110,14 +108,3 @@ body{
 .broker > .inline-header{
     display: none;
 }
-
-
-
-/*
-.dataGrid{
-    box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);
-}
-
-.dataGrid:nth-child(odd){
-    background: red;   
-}*/

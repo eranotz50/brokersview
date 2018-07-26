@@ -16,7 +16,7 @@ function brokersViewCntrl(container){
 
 
  
-              console.log('container -> ' + container);
+              //console.log('container -> ' + container);
                                                        
               $.each(data,function(i,e){        
                                             
@@ -25,7 +25,7 @@ function brokersViewCntrl(container){
                           .replace("{Regulatory}",e.Regulatory).replace("{MinDeposit}",e.MinDeposit)
                           .replace("{Spreads}",e.Spreads);
 
-                  console.log('appending --> \n' + htmlStr);
+              //    console.log('appending --> \n' + htmlStr);
 
                   var trimedHtmlStr = $.trim(htmlStr)  ;
 
