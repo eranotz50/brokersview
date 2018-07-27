@@ -6,7 +6,6 @@
     display: none;
 }
 
-
 *{ 
     box-sizing: border-box;
     margin : 0;
@@ -28,6 +27,12 @@ body{
 }
 
 
+
+.inline-header{
+    width: 50%;
+    display: inline-block;
+}
+
 .header{
     text-align: center;
 }
@@ -44,7 +49,56 @@ body{
     text-align: center;   
 }
 
+.broker{   
+    display: flex;
+    flex-direction: column;
+    width : 100%;       
+}
+
+.broker > div{
+    display: flex;
+    align-items: center;    
+    justify-content: center;          
+    border: 1px solid black;                            
+}
+
 .broker:nth-child(odd){
     background : #4a85c0;
     color:  #283849;
+}
+
+
+.col1 {
+    width : 50%;
+    background: red;
+}
+
+.col2 {
+    width : 50%;
+    background:gray;
+}
+
+.col3 {
+    width : 50%;   
+    background: blue;    
+}
+
+.col4 {
+    width : 50%;     
+    background: pink;  
+}
+
+.col5 {
+    width : 50%;     
+    background: yellow;      
+}
+
+.col6 {
+    width : 50%;       
+    background: purple;
+}
+
+.col7 {
+    width : 50%;       
+    background: plum;
 }
