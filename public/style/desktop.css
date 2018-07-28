@@ -37,18 +37,15 @@
     }
   
     .grid-header {
-        width : 100%;
-                display: flex;                  
+        display: flex;                  
         background : #485e74;    
         color: #fff;
         font-size: 18px;       
-        justify-items: stretch;
+        justify-content: stretch;
+        justify-items: stretch;        
     }
     
     .grid-header > div{        
-        display: inline-flex;
-        align-items: center;   
-        justify-content: center;        
         border: 1px solid black;            
     }
 
@@ -64,9 +61,6 @@
         width : 100%;
         display: flex;     
         flex-direction: row;
-        align-items: stretch;
-        aligitems: stretch;
-        justify-content: center;
     }
 
     .values > div{
