@@ -72,11 +72,4 @@
         flex-direction: row;
         justify-content: center;    
     }
-
-    .values > div{
-        display: flex;               
-        align-items: center;    
-        justify-content: center;         
-    }
-
 }
