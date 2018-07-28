@@ -1,3 +1,7 @@
+.hide{
+    display: none;
+}
+
 [class*="col"] {
     width: 100%;
 }
@@ -69,8 +73,11 @@ body{
 }
 
 .names > div{        
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
     border: 1px solid black;       
-    display: flex;                     
 }
 
 
@@ -81,6 +88,9 @@ body{
 }
 
 .values > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;                            
 }
 
@@ -96,41 +106,41 @@ body{
     width : 100%;
     height : 100%;
     background: red;
-    display: none;
+    display: none !important;
 }
 
 .col2 {
     width : 100%;
-    height : 100%;
+    height : 16%;
     background:gray;
 }
 
 .col3 {
     width : 100%;
-    height : 100%;
+    height : 16%;
     background: blue;    
 }
 
 .col4 {
     width : 100%;
-    height : 100%;
+    height : 16%;
     background: pink;  
 }
 
 .col5 {
     width : 100%;
-    height : 100%;    
+    height : 16%;
     background: yellow;      
 }
 
 .col6 {
     width : 100%;
-    height : 100%;      
+    height : 16%;
     background: purple;
 }
 
 .col7 {
     width : 100%;
-    height : 100%;      
+    height : 20%;
     background: plum;
 }

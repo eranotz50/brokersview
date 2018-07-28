@@ -5,7 +5,7 @@ function brokersViewCntrl(container){
   +   "<div class='broker_header'><img src='{Img}'/></div>"
   +   "<div class='broker_body'>"
   +      "<div class='names'>" 
-  +         "<div></div> <div>Broker</br>Rating</div><div>Maximum </br> Leverage </div><div>Regulation  </br> Authority</div><div>Minimum </br> Deposit</div><div>Minimum </br> Spread </div><div></div>" 
+  +         "<div class='col1'></div> <div class='col2'>Broker</br>Rating</div><div class='col3'>Maximum </br> Leverage </div><div class='col4'>Regulation  </br> Authority</div><div class='col5'>Minimum </br> Deposit</div><div class='col6'>Minimum </br> Spread </div><div class='col7'></div>" 
   +      "</div>" 
   +      "<div class='values'>"
   +         "<div class='col1'><img src='{Img}'/></div><div class='col2'>{Rating}</div><div class='col3'>{Leverage}</div><div class='col4'>{Regulatory}</div><div class='col5'>{MinDeposit}</div><div class='col6'>{Spreads}</div><div class='col7'><a target='_blank' href='https://www.fortrade.com?B=567&A=147174&mtId=567'> Open account </a></div>"
