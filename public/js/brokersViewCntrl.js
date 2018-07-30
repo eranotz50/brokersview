@@ -17,8 +17,6 @@ function brokersViewCntrl(container){
       
       populateView : function(){
           $.get('/brokers',function(data){
-
-
  
               //console.log('container -> ' + container);
                                                        

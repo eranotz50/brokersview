@@ -1,8 +1,9 @@
-.rating > input { display: none; } 
-.rating > label:before { 
-  margin: 5px;
-  font-size: 1.25em;
-  font-family: FontAwesome;
-  display: inline-block;
-  content: "\f005";
+.star:before{
+  content: "\2605";
+  color: red;
+}
+
+.star-half:before{
+  content: "\f5c0";
+  color: red;  
 }
