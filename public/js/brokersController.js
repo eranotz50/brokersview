@@ -1,4 +1,4 @@
-function brokersViewCntrl(container){
+function brokersController(container){
  
   var _brokerTemplate  = '';
   var _defered = $.Deferred();
@@ -29,16 +29,13 @@ function brokersViewCntrl(container){
 
     }
     
-  return {
-  
-        init : function(){
-
-            initInternal();
-            return _defered.promise();                                        
-        }      
-    }
-
+this.init =  function(){
+        initInternal();
+        return _defered.promise();                                        
+    }      
 }
+
+
   
 
 
