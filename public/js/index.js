@@ -3,8 +3,7 @@ $(document).ready(function(){
     var grid = $('.dataGrid');
 
     var brokersViewCtrl = new brokersViewCntrl(grid);
-    brokersViewCtrl.populateView();
-
+    brokersViewCtrl.init().then( res => console.log('Init complete -> ' + res));    
 });
    
 

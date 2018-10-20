@@ -7,3 +7,13 @@
   content: "\f5c0";
   color: red;  
 }
+
+.test{
+    border : 1px solid black;
+    width : 20px;
+    height: 20px;
+}
+
+.test::before{
+  content: '\f006';
+}
