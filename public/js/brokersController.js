@@ -21,6 +21,12 @@ function brokersController(container){
 
                         var html = $.parseHTML(trimedHtmlStr);
                         $(container).append(html);                             
+                        
+                        var stars = $(html).find('#stars');    
+                        console.log(stars);
+
+
+                        $(stars).append('<div class="far fa-star"> </div>');    
 
                         _defered.resolve('Broker table created');
                 });
