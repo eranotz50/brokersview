@@ -1,52 +1,49 @@
 @media screen and (min-width: 768px) {
     
+  .broker:nth-child(odd){
+      background :white;
+   }
+
     .col1 {
         width : 15%;        
-        background: red;
         display: inline-flex !important;
         height : auto;
 
     }
 
     .col2 {
-        width : 16%;
-        background:gray;
+        width : 16%;        
         height : auto;
     }
 
     .col3 {
         width : 12%;   
-        background: blue;    
         height : auto;
     }
 
     .col4 {
         width : 12%;     
-        background: pink;  
         height : auto;
     }
 
     .col5 {
         width : 12%;     
-        background: yellow;      
         height : auto;
     }
 
     .col6 {
         width : 10%;       
-        background: purple;
         height : auto;
     }
 
     .col7 {
         width : 23%;       
-        background: plum;
         height : auto;
     }
   
     .grid-header {
         display: flex;                  
-        background : #485e74;    
+        background: #424242;  
         color: #fff;
         font-size: 18px;               
     }

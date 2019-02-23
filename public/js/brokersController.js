@@ -73,7 +73,6 @@ function brokersController(container){
                 });
             });               
         })        
-
     }
     
 this.init =  function(){
