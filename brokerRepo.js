@@ -4,7 +4,7 @@ var brokerRepo = {
         {
           Org: 'Fortrade',
           Product: 'Forex,MT4,CFD',
-          Rating: '98',
+          Rating: '80',
           Spreads: '2',
           Regulatory: 'FCA',
           Leverage: '200',
@@ -14,7 +14,7 @@ var brokerRepo = {
         {
           Org: 'Avatrade',
           Product: 'Forex,MT4,CFD,Social',
-          Rating: '94',
+          Rating: '90',
           Spreads: '1',
           Regulatory: 'FCA,FSMA',
           Leverage: '400',
