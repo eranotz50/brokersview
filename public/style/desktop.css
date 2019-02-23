@@ -1,8 +1,8 @@
 @media screen and (min-width: 768px) {
-    
-  .broker:nth-child(odd){
-      background :white;
-   }
+      
+    .broker:nth-child(odd){
+        background :white;      
+    }
 
     .col1 {
         width : 15%;        

@@ -45,6 +45,8 @@ body{
 .dataGrid{
     box-shadow: 0 0 20px 0 rgba(72, 94  ,116, 0.7);    
     text-align: center;   
+    background : #EBEBEB;
+
 }
 
 .broker{   
@@ -66,7 +68,7 @@ body{
     width : 100%;
     height : 100%;
     display: flex;
-    background: #EBEBEB
+ /*  background: #EBEBEB;*/
 }
 
 .names{
