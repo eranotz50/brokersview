@@ -1,5 +1,3 @@
-
-
 var Utils = (function(){
 
     return {
@@ -8,7 +6,5 @@ var Utils = (function(){
             return Math.round(num*2)/2;    
         }        
     }
-
-
 })();
 
